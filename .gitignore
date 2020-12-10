@@ -3,3 +3,5 @@
 *.class
 /.settings
 /target
+.idea/
+java-design-patterns.iml

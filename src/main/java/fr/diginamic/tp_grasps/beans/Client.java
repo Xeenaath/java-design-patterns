@@ -28,6 +28,10 @@ public class Client {
 		this.premium = premium;
 	}
 
+	public void addReservation(Reservation reservation) {
+		this.getReservations().add(reservation);
+	}
+
 	/** Getter
 	 * @return the identifiantClient
 	 */
